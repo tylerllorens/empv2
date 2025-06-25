@@ -1,0 +1,23 @@
+{
+  "name": "employee-directory-v2",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "vitest"
+  },
+  "imports": {
+    "#*": "./*.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.0",
+    "vitest": "^3.1.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
